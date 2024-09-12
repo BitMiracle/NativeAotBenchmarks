@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageReference Include="BitMiracle.Docotic.Pdf" Version="9.5.17549-dev" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Helper.cs" Link="Helper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\PDF\3BigPreview.pdf" Link="3BigPreview.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\PDF\Banner Edulink One.pdf" Link="Banner Edulink One.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
