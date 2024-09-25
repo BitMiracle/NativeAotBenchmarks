@@ -5,6 +5,8 @@ We use 2 types of benchmarks:
 * Based on [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet)
 * Based on [hyperfine](https://github.com/sharkdp/hyperfine)
 
+Read the [.NET Native AOT benchmarking](https://bitmiracle.com/pdf-library/howto/native-aot-performance) article for more detail.
+
 ## Prerequisites
 
 Install [prerequisites](https://docs.microsoft.com/en-us/dotnet/core/deploying/native-aot/#prerequisites) required by the Native AOT compiler.
